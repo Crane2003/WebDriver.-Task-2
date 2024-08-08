@@ -60,7 +60,7 @@ git push origin master --force";
         [TestCleanup]
         public void TearDown()
         {
-            //driver.Quit();
+            driver.Quit();
         }
     }
 }
